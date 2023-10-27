@@ -96,9 +96,11 @@
 
 
 <script>
+  import axios from "axios";//封装
   export default{
   name:'HomeView',
-  
+
+
   data(){
      return{
      isCollaspe: false,//不收缩（对应el-ui里的collaspe收缩菜单返回值）    加逗号。。。。
